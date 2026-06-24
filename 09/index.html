@@ -6,12 +6,23 @@
     <title>Posicionamento</title>
 
     <style type="text/css">
-        .caixa{
-
+        body{
+            background: #61bd8c;
         }
 
-        #container{
+        .caixa{
+            background-color: red;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            color: #ffffff;
+        }
 
+        #conteudo{
+            background: #ffffff;
+            padding: 10px;
+            width: 900px;
+            margin: 30px auto;
         }
 
         #relativo{
@@ -25,16 +36,43 @@
         }
 
         #fixo{
-
+            position: fixed;
+            left: 200px;
+            top: 0px;
         }
 
     </style>
 </head>
 <body>
-    <span>
-        <div id="">
+        <span>Container body</span>
+
+        <div id="menu">
+        <a href="galeria.html">Galeria</a>
+        </div>
+
+        <div id="conteudo">
+            Container div
+            <div id="relativo" class="caixa">
+                Relativo
+            </div>
+
+            <div id="absoluto" class="caixa">
+                Absoluto
+            </div>
+
+            <div id="fixo" class="caixa">
+                Fixo
+            </div>
+        </div>
+
+        
+    <br>
+    
+
+
+
 
         </div>
-    </span>
+    
 </body>
 </html>
