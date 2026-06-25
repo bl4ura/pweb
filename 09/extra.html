@@ -7,84 +7,65 @@
     <style type="text/css">
         body{
             margin: 0;
+            padding: 0;
         }
 
-        #container{
+        .container{
             display: flex;
             margin-top: 50px;
         }
 
-        #header{
+        .header{
             background-color: lightblue;
             position: fixed;
-            top: 0px;
+            top: 0;
             left: 0;
-            width: 100%;
-            height: 50px;
-                        
+            width: 100%;                        
 
         }
 
-        #left{
+        .left{
             background-color: lightcoral;
-            float: left;
-            width: 33.33%;
-            height: 400px;
-            margin-top: 50px;
-
+            width: 25%;
         }
 
-        #center{
+        .center{
             background-color: lightgreen;
-            float: left;
-            width: 33.33%;
-            height: 400px;
-            box-sizing: border-box;
+            width: 50%;
 
 
         }
 
-        #right{
+        .right{
             background-color: lightcoral;
-            float: left;
-            width: 33.34%;
-            height: 400px;
-            box-sizing: border-box;
+            width: 25%;
 
         }
 
-        #footer{
+        .footer{
             background-color: lightpink;
             height: 50px;
-            clear: both;
-
+            width: 100%
 
         }
     </style>
 
 </head>
 <body>
-    <div id="header">
+    <div class="header">
         Header 100%
     </div>
 
-    <div id="container">
-    <div id="left">
-        Left 25%
-    </div>
+<div class="container">
+    <div class="left">Left 25%</div>
 
-    <div id="center">
-        Center 50%
-    </div>
+    <div class="center">Center 50%</div>
 
-    <div id="right">
-        Right 25%
-    </div>
-
-    <div id="footer">
-        Footer 100%
-    </div>
+    <div class="right">Right 25%</div>
 </div>
+
+<div class="footer">Footer 100%</div>
+
 
 </body>
 </html>
